@@ -2,6 +2,8 @@ package Exercice_8;
 
 import java.util.Scanner;
 
+import org.w3c.dom.css.Counter;
+
 public class App {
     public static void main(String[] args) throws Exception {
 
@@ -9,6 +11,8 @@ public class App {
 
         // Écrire un programme en Java qui permet de saisir 10 entiers dans un tableau.
         // - compter combien y a-t-il d'éléments pairs et impairs.
+
+
         // - mettre les éléments pairs dans un tableau T1 et les éléments impaires dans
         // un tableau T2.
         // - Puis afficher T1 et T2
@@ -16,7 +20,8 @@ public class App {
         System.out.print("Entrez un nombre entier : ");
         int[] nombre = new int[10];
 
-        nombre[1] = scanner.nextInt();
+        nombre[0] = scanner.nextInt();
+        Counter nombre = scanner.nextInt();
 
         scanner.close();
 

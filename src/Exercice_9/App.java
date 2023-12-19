@@ -17,13 +17,16 @@ public class App {
 
         nombre[1] = scanner.nextInt();
         for (int i = 0; i < 100; i++) {
-            if (nombre[i] % 3 == 0) {
-                System.out.println("fizz");
-            } else if (nombre[i] % 5 == 0) {
-                System.out.println("buzz");
-            } else if (nombre[i] % 3 == 0 && nombre[i] % 5 == 0) {
+            if (nombre[i] % 3 == 0 && nombre[i] % 5 == 0) {
                 System.out.println("fizzbuzz");
             }
+            else if (nombre[i] % 3 == 0) {
+                System.out.println("fizz");
+            } 
+            else if (nombre[i] % 5 == 0) {
+                System.out.println("buzz");
+            }
+            
 
         }
         scanner.close();
