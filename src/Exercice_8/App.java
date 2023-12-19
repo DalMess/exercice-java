@@ -18,25 +18,21 @@ public class App {
         // - Puis afficher T1 et T2
 
         System.out.print("Entrez un nombre entier : ");
-        int[] nombre = new int[10];
+        int[] tab = new int[10];
+        int addNumber = 0;
 
-        nombre[0] = scanner.nextInt();
-        Counter nombre = scanner.nextInt();
-
-        scanner.close();
-
-        int[] tableau_1 = new int[10];
-        int[] tableau_2 = new int[10];
-
-        for (int i = 0; i < 10; i++) {
-            if (nombre[i] % 2 == 0){
-                System.out.println( tableau_1 + "est pair");
+        for (int i = 1; i <= 10; i++);
+            if (addNumber % 2 != 0) {
+                addNumber = addNumber +1;
+                t1 [addNumber++] = n;
             }
-                
-            else {
-                System.out.println(tableau_2 + "est impair");
-
+            else if (addNumber %2 == 0) {
+                addNumber = addNumber +1;
             }
+        
+        int tableau_1 = new tableau_1;
+        int tableau_2 = new int[];
+
         }
     }
-}
+
