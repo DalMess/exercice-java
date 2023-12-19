@@ -24,8 +24,10 @@ public class App {
         int[] tableau_2 = new int[10];
 
         for (int i = 0; i < 10; i++) {
-            if (nombre[i] % 2 == 0)
-                System.out.println(tableau_1 + "est pair");
+            if (nombre[i] % 2 == 0){
+                System.out.println( tableau_1 + "est pair");
+            }
+                
             else {
                 System.out.println(tableau_2 + "est impair");
 

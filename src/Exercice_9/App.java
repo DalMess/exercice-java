@@ -13,10 +13,10 @@ public class App {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Entrez le premier nombre : ");
-        int[] nombre = new int[10];
+        int[] nombre = new int[100];
 
         nombre[1] = scanner.nextInt();
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 100; i++) {
             if (nombre[i] % 3 == 0) {
                 System.out.println("fizz");
             } else if (nombre[i] % 5 == 0) {
