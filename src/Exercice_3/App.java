@@ -16,9 +16,9 @@ public class App {
     System.out.println("Veuillez saisir le premier nombre");
     int b = scanner.nextInt();
 
-    
+    int c = a;
     a= b;
-    b = a;
+    b = c;
         System.out.println("A = " + a);
         System.out.println("B = " + b);
 
