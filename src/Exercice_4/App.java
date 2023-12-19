@@ -23,16 +23,14 @@ public class App {
       prix_ht = prix_ht * prix_reduction;
       prix_ttc = prix_ht * tarif_tva;
         System.out.println("le montant total de vos achats est de" + prix_ttc);
-    break;
+    
     }
-    else if (prix_ht =< 200){
-      prix_ttc = prix_ht * tarif_tva;
-        System.out.println("le montant total de vos achats est de" + prix_ttc);
-    break;
+    else {
+       System.out.println("le montant total de vos achats est de" + prix_ttc);
     }
+       
     
      
-
     scanner.close();
     }
 }
