@@ -7,7 +7,7 @@ import org.w3c.dom.css.Counter;
 public class App {
     public static void main(String[] args) throws Exception {
 
-        Scanner scanner = new Scanner(System.in);
+        
 
         // Écrire un programme en Java qui permet de saisir 10 entiers dans un tableau.
         // - compter combien y a-t-il d'éléments pairs et impairs.
@@ -19,7 +19,8 @@ public class App {
 
         System.out.print("Entrez un nombre entier : ");
         int[] tab = new int[10];
-        int addNumber = 0;
+
+        Scanner scanner = new Scanner(System.in);
 
         for (int i = 1; i <= 10; i++);
             if (addNumber % 2 != 0) {
